@@ -1,0 +1,426 @@
+.tab-title {
+  position: relative;
+  display: flex;
+  width: 956px;
+  height: 64px;
+  gap: 16px;
+  align-items: top;
+  justify-content: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+.tab-title .icon-box {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 8px;
+  gap: 8px;
+  background: #eaefed;
+  animation-timing-function: ease-in-out;
+  animation-duration: 300ms;
+  color: #587169;
+  cursor: pointer;
+}
+
+.tab-title h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container {
+  width: 956px;
+  height: auto;
+  padding: 40px, 24px, 40px, 24px;
+  border-radius: 8px;
+  gap: 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px 0px #a5abb329;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 30px solid #ffffff;
+  border-bottom: 50px solid #fff;
+  margin-bottom: 2%;
+}
+
+.tab-subtitle {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  color: #34423d;
+}
+
+.colaborator-info-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.colaborator-info-box .colaborator-info {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.colaborator-info-box .colaborator-info input {
+  padding: 12px 10px 12px 15px;
+  border: none;
+  width: 100%;
+  height: 52px;
+  line-height: 24px;
+  background: none;
+  border: 2px solid #cad6d1;
+  color: #587169;
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: left;
+  outline: none;
+}
+
+.colaborator-info-box .colaborator-info.gray input {
+  background: #eaefed;
+}
+
+.colaborator-info-box .colaborator-info input:valid ~ span,
+.colaborator-info-box .colaborator-info input:focus ~ span {
+  background: #fff;
+  transform: translateX(15px) translateY(-5px);
+  font-size: 0.6em;
+  padding: 0 8px;
+}
+
+.colaborator-info-box .colaborator-info span {
+  position: absolute;
+  left: 0;
+  padding: 14px 10px 12px 15px;
+  pointer-events: none;
+  font-size: 16px;
+  transition: 0.5s;
+  letter-spacing: 0.05em;
+  color: #a3b8b0;
+}
+
+.colaborator-info-box .colaborator-info select {
+  padding: 12px 10px 12px 15px;
+  border: none;
+  width: 100%;
+  height: 52px;
+  line-height: 24px;
+  background: none;
+  border: 2px solid #cad6d1;
+  color: #587169;
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: left;
+  outline: none;
+}
+
+.colaborator-info-box .colaborator-info select:valid ~ span,
+.colaborator-info-box .colaborator-info select:focus ~ span {
+  background: #fff;
+  transform: translateX(15px) translateY(-5px);
+  font-size: 0.6em;
+  padding: 0 8px;
+}
+
+.colaborator-info-box .colaborator-info.phone {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.colaborator-info-box .colaborator-info select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: nonea;
+}
+
+.colaborator-info-box .colaborator-info .select-icon span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: 94%;
+  color: #587169;
+}
+
+.colaborator-info-box .colaborator-info.phone select {
+  width: 111px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: nonea;
+}
+
+.colaborator-info-box .colaborator-info.phone .select-icon span {
+  position: absolute;
+  width: 24px;
+  height: 100%;
+  margin-left: 6%;
+  color: #587169;
+}
+
+.colaborator-info-box .colaborator-info.phone .phone-number input {
+  width: 775px;
+}
+
+.colaborator-info-box .colaborator-info.phone .phone-number span {
+  position: absolute;
+  left: 0;
+  padding: 14px 10px 12px 140px;
+  pointer-events: none;
+  font-size: 16px;
+  transition: 0.5s;
+  letter-spacing: 0.05em;
+  color: #a3b8b0;
+}
+
+.colaborator-info-box .colaborator-info.phone .phone-number input:valid ~ span,
+.colaborator-info-box .colaborator-info.phone .phone-number input:focus ~ span {
+  background: #fff;
+  transform: translateX(135px) translateY(-5px);
+  font-size: 0.6em;
+  padding: 0 8px;
+}
+
+.colaborator-info-box .image {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 115.84px;
+  gap: 24px;
+}
+
+.colaborator-info-box .image img {
+  position: relative;
+  display: flex;
+  width: 112px;
+  height: 115.84px;
+  border-radius: 800px;
+  z-index: 1;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.colaborator-info-box .image .icon-circle {
+  position: absolute;
+  display: flex;
+  width: 34px;
+  height: 34px;
+  left: 80px;
+  padding: 8px;
+  border-radius: 80px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #eaefed;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.colaborator-info-box .image .text {
+  position: relative;
+  margin-top: 3.5%;
+  width: 400px;
+  height: 115.84px;
+  gap: 4px;
+}
+
+.colaborator-info-box .image .text h1 {
+  position: relative;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #34423d;
+}
+
+.colaborator-info-box .image .text p {
+  position: relative;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #587169;
+}
+
+.position-info-box {
+  margin-top: 2%;
+}
+
+.position-info-box .box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.position-info-box .position-info {
+  position: relative;
+  display: flex;
+  width: 442px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.position-info-box .position-info input {
+  padding: 12px 10px 12px 15px;
+  border: none;
+  width: 100%;
+  height: 52px;
+  line-height: 24px;
+  border: 2px solid #cad6d1;
+  background: #eaefed;
+  color: #587169;
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: left;
+  outline: none;
+}
+
+.tab-footer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 52px;
+  justify-content: right;
+}
+
+.tab-footer .buttons {
+  position: relative;
+  display: flex;
+  width: 344px;
+  height: 100%;
+  gap: 16px;
+  align-items: center;
+}
+
+.tab-footer .buttons .cancel {
+  width: 123px;
+  height: 52px;
+  padding: 14px 24px 14px 24px;
+  border-radius: 8px;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #a3b8b0;
+  transition: 0.25s;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.tab-footer .buttons .cancel:hover {
+  background: rgb(235, 235, 235);
+  transition: 0.25s;
+}
+
+.tab-footer .buttons .save {
+  width: 205px;
+  height: 52px;
+  padding: 14px 24px 14px 24px;
+  border-radius: 8px;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  transition: 0.25s;
+  margin-top: 30px;
+  cursor: pointer;
+  background: #1dd195;
+  white-space: nowrap;
+}
+
+.tab-footer .buttons .save:hover {
+  background: #17a576;
+  transition: 0.25s;
+}
+
+@media (max-width: 991px) {
+  .tab-title {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .tab-title h1 {
+    line-height: 40px;
+  }
+  .container {
+    border-bottom: 120px solid #fff;
+  }
+  .colaborator-info-box .colaborator-info.gender {
+    position: absolute;
+  }
+  .colaborator-info-box .colaborator-info.gender .select-icon {
+    position: absolute;
+  }
+  .colaborator-info-box .colaborator-info.gender select:valid ~ span,
+  .colaborator-info-box .colaborator-info.gender select:focus ~ span,
+  .colaborator-info-box .colaborator-info.name select:valid ~ span,
+  .colaborator-info-box .colaborator-info.name select:focus ~ span {
+    transform: translateX(12.5px) translateY(-3px);
+  }
+  .colaborator-info-box .colaborator-info.phone {
+    margin-top: 80px;
+  }
+  .colaborator-info-box .colaborator-info.phone .phone-number span {
+    padding: 14px 10px 12px 80px;
+  }
+  .colaborator-info-box
+    .colaborator-info.phone
+    .phone-number
+    input:valid
+    ~ span,
+  .colaborator-info-box
+    .colaborator-info.phone
+    .phone-number
+    input:focus
+    ~ span {
+    transform: translateX(80px) translateY(-3px);
+  }
+  .colaborator-info-box .colaborator-info.phone select:valid ~ span,
+  .colaborator-info-box .colaborator-info.phone select:focus ~ span {
+    transform: translateX(12.5px) translateY(-3px);
+  }
+  .colaborator-info-box .image img {
+    width: 200px;
+    height: 105px;
+  }
+  .position-info-box .box {
+    height: auto;
+    display: block;
+    margin-bottom: -2px;
+  }
+  .position-info-box .box .position-info {
+    margin-top: 2px;
+  }
+  .tab-footer {
+    height: auto;
+    position: absolute;
+    left: -8%;
+  }
+}
