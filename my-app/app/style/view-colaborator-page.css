@@ -147,7 +147,7 @@
 .colaborator-info-box .colaborator-info select {
   -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: nonea;
+  appearance: none;
 }
 
 .colaborator-info-box .colaborator-info .select-icon span {
@@ -162,7 +162,7 @@
   width: 111px;
   -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: nonea;
+  appearance: none;
 }
 
 .colaborator-info-box .colaborator-info.phone .select-icon span {
